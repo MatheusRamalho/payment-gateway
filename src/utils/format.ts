@@ -1,4 +1,4 @@
-export const dateFormat = (date: string | Date) => {
+export function dateFormat(date: string | Date) {
     const formatter = new Intl.DateTimeFormat('pt-BR', {
         dateStyle: 'short',
         timeStyle: 'medium',
@@ -11,7 +11,7 @@ export const dateFormat = (date: string | Date) => {
     return formatted
 }
 
-export const priceFormat = (value: number) => {
+export function priceFormat(value: number) {
     if (value === null || typeof value !== 'number') {
         return 'Valor inválido'
     }

@@ -5,7 +5,7 @@ interface SkeletonProps {
     children?: ReactNode
 }
 
-export const Skeleton = ({ customClass, children }: SkeletonProps) => {
+export function Skeleton({ customClass, children }: SkeletonProps) {
     return (
         <div data-testid="skeleton" className={`${customClass} animate-pulse`}>
             {children}

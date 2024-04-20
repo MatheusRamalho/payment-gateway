@@ -9,8 +9,8 @@ interface IconProps extends LucideProps {
     customClass?: string
 }
 
-export const Icon = ({ name, customClass, ...props }: IconProps) => {
+export function Icon({ name, customClass, ...props }: IconProps) {
     const LucideIcon = dynamic(dynamicIconImports[name])
 
-    return <LucideIcon strokeWidth={2} {...props} className={customClass} />
+    return <LucideIcon strokeWidth={1} {...props} className={customClass} />
 }

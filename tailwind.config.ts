@@ -14,6 +14,11 @@ const config: Config = {
                 'primary-500': '#025EFF',
                 'primary-700': '#0255E8',
 
+                // rgb(0, 43, 231)
+                // rgb(0, 33, 178)
+                // linear- gradient(0deg, rgb(2, 35, 187) 0 %, rgb(0, 43, 231) 30 %)
+
+                'gray-1': '#eff4f8',
                 'gray-50': '#E6E6EA',
                 'gray-100': '#E4E4E8',
                 'gray-200': '#e1e1e6',
