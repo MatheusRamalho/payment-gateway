@@ -8,7 +8,7 @@ interface InputRootProps {
 export function InputRoot({ children, isCol = false }: InputRootProps) {
     return (
         <div
-            className={`flex items-start justify-center gap-3 flex-col sm:flex-row my-10 ${
+            className={`w-full flex items-start justify-center gap-3 flex-col sm:flex-row my-5 ${
                 isCol && '!flex-col'
             }`}
         >

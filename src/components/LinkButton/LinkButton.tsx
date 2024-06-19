@@ -13,7 +13,7 @@ interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 const primaryClass =
     'text-white border-primary-500 bg-primary-500 hover:bg-primary-700 hover:bg-primary-700'
 const secondaryClass =
-    'text-gray-100 border-gray-500 bg-gray-500 hover:bg-white hover:text-gray-800'
+    'text-gray-400 border-gray-200 bg-gray-100 hover:bg-gray-300 hover:text-gray-200'
 
 export function LinkButton({
     link,

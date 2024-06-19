@@ -6,8 +6,8 @@ interface CardPageRightProps {
 
 export function CardPageRight({ children }: CardPageRightProps) {
     return (
-        <div className="px-10 flex items-center justify-center flex-col">
+        <aside className="flex-1 flex items-center justify-center flex-col p-16 border-l border-l-gray-200 bg-gray-50">
             {children}
-        </div>
+        </aside>
     )
 }

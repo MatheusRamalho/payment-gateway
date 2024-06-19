@@ -6,7 +6,7 @@ interface TicketRootProps {
 
 export function TicketRoot({ children }: TicketRootProps) {
     return (
-        <div className="relative flex-1 w-80 my-5 bg-gray-50/30 rounded-xl">
+        <div className="relative w-80 my-5 bg-gray-100 border border-gray-300 rounded-xl">
             {children}
         </div>
     )
