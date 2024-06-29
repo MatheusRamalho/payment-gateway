@@ -36,7 +36,7 @@ export function Card({
 
             <div className="flex flex-col gap-2">
                 {cardholderName !== '' ? (
-                    <p className="font-regular text-xs text-secondary-600 uppercase">
+                    <p className="font-regular text-xs text-secondary-600 dark:text-secondary-800 uppercase">
                         {cardholderName}
                     </p>
                 ) : (
@@ -54,7 +54,7 @@ export function Card({
 
             <div className="flex items-center justify-between">
                 {expirationMonth !== '' && expirationYear !== '' ? (
-                    <p className="text-sm font-bold text-secondary-600">
+                    <p className="text-sm font-bold text-secondary-600 dark:text-secondary-800">
                         {expirationMonth}/{expirationYear}
                     </p>
                 ) : (
