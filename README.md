@@ -23,7 +23,7 @@
 
 ## 💡 Projeto
 
-Aplicação de coming soon, vai lhe ajudar com o lançamento do seu próximo projeto, produto ou serviço. Servindo como uma referença que atualiza em tempo real, de quanto tempo falta para o lançamento.
+Um mini projeto de gateway de pagamento por cartão de crédito.
 
 <br />
 
@@ -38,9 +38,8 @@ Aplicação de coming soon, vai lhe ajudar com o lançamento do seu próximo pro
 
 ## 🧰 Funcionalidades
 
-- Personalizar titulo e descrição
-- Informar o tempo para inicio do cronômetro
-- Cronomêtro decrescente
+- Formulário funcional
+- Aplicação de informações no cartão
 
 <br />
 
@@ -71,7 +70,7 @@ Antes de começar, verifique se atendeu aos seguintes requisitos:
 Clone o repositório
 
 ```bash
-git clone https://github.com/MatheusRamalho/coming-soon.git
+git clone https://github.com/MatheusRamalho/payment-gateway
 ```
 
 Utilize o **npm** para instalar as dependências do projeto.

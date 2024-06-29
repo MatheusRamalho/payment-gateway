@@ -1,7 +1,6 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-    darkMode: 'class',
     content: [
         './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,22 +13,20 @@ const config: Config = {
                 'primary-500': '#025EFF',
                 'primary-700': '#0255E8',
 
-                // rgb(0, 43, 231)
-                // rgb(0, 33, 178)
-                // linear- gradient(0deg, rgb(2, 35, 187) 0 %, rgb(0, 43, 231) 30 %)
+                'secondary-100': '#FBFBFD',
+                'secondary-200': '#E6EDF0',
+                'secondary-500': '#7F8AA5',
+                'secondary-600': '#6F7999',
+                'secondary-800': '#1B2350',
+                'secondary-900': '#14234D',
 
-                'gray-1': '#eff4f8',
-                'gray-50': '#E6E6EA',
-                'gray-100': '#E4E4E8',
-                'gray-200': '#e1e1e6',
-                'gray-300': '#c4c4cc',
-                'gray-400': '#7c7c8a',
-                'gray-500': '#323238',
-                'gray-600': '#29292e',
-                'gray-700': '#202024',
-                'gray-800': '#121214',
-                'gray-900': '#101012',
-                'gray-950': '#0F0F10',
+                'bg-light': '#D6DBDC',
+            },
+            backgroundImage: {
+                'gradient-light':
+                    'linear-gradient(to bottom, transparent, #FFFFFF)',
+                'gradient-dark':
+                    'linear-gradient(to bottom, transparent, #025EFF)',
             },
         },
     },

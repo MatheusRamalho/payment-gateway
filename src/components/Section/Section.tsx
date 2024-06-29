@@ -9,7 +9,7 @@ interface SectionProps {
 export function Section({ legend, children, customClass }: SectionProps) {
     return (
         <section
-            className={`w-full h-full bg-gray-50/30 py-20 px-5 ${customClass}`}
+            className={`w-full h-full bg-secondary-100/30 py-20 px-5 ${customClass}`}
         >
             <h6 hidden> {legend} </h6>
 
